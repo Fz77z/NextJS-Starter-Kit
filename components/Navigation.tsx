@@ -40,11 +40,7 @@ const Navigation = async () => {
               Sign In
             </Link>
           ) : (
-            <>
-              <div style={{ width: "150px", height: "40px" }}>
-                <SignOutButton />
-              </div>
-            </>
+            <SignOutButton />
           )}
         </div>
       </div>
