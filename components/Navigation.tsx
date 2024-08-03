@@ -36,7 +36,7 @@ const Navigation = async () => {
         </div>
         <div>
           {!session?.user ? (
-            <Link href="/api/auth/signin" className="hover:text-gray-400">
+            <Link href="/signin" className="hover:text-gray-400">
               Sign In
             </Link>
           ) : (
